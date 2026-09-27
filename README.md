@@ -138,41 +138,22 @@ menunjukkan bahwa Pasien memiliki hubungan dengan object Dokter.<br>
 menunjukkan pembuatan object dari subclass.<br>
 
 ## Running Program 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <img width="338" height="146" alt="image" src="https://github.com/user-attachments/assets/929b0537-2010-47d1-bbe1-3b8a40e8b5f6" /><br>
+Pada gambar di atas terlihat menu utama aplikasi setelah program dijalankan. Menu ini menyediakan beberapa pilihan untuk mengelola data pasien dan dokter. Pengguna dapat memilih menu sesuai kebutuhan, dan program akan terus berjalan sampai pengguna memilih menu Keluar.<br>
 <img width="311" height="143" alt="image" src="https://github.com/user-attachments/assets/926aa529-caea-4387-90cd-48d2e942d941" /><br>
+Pada gambar ini terlihat proses pendaftaran pasien. Pengguna memasukkan data seperti ID pasien, nama, umur, nomor telepon, dan keluhan. Setelah data berhasil dimasukkan, sistem menyimpan data pasien dan memberikan informasi bahwa pasien berhasil didaftarkan.<br>
 <img width="458" height="161" alt="image" src="https://github.com/user-attachments/assets/7642cce6-1006-4235-b60d-55691833bcae" /><br>
+Pada gambar ini terlihat proses Manager menentukan dokter untuk pasien. Manager memilih pasien yang sudah terdaftar, kemudian memilih dokter dari daftar dokter yang tersedia. Setelah dokter dipilih, sistem menghubungkan dokter tersebut dengan pasien.<br>
 <img width="361" height="131" alt="image" src="https://github.com/user-attachments/assets/6e52eaa9-8701-483c-a2d8-6f5167fc1ae1" /><br>
+Pada gambar ini terlihat data pasien yang sudah tersimpan, termasuk dokter yang menangani pasien dan spesialisasinya. Screenshot ini menunjukkan bahwa proses pendaftaran pasien dan penentuan dokter telah berhasil dilakukan di dalam program.<br>
 <img width="416" height="242" alt="image" src="https://github.com/user-attachments/assets/b498c234-0aed-4cd1-9964-3e589620c7ca" /><br>
-<img width="335" height="89" alt="image" src="https://github.com/user-attachments/assets/97478e8b-94e8-496c-8de8-d408671e6a60" /><br>>
+Pada gambar ini menunjukkan Daftar dokter yang sudah tersedia<br>
+<img width="335" height="89" alt="image" src="https://github.com/user-attachments/assets/97478e8b-94e8-496c-8de8-d408671e6a60" /><br>
+Pada gambar diatas menampilkan Admin atau manager pada klinik.<br>
 <img width="431" height="101" alt="image" src="https://github.com/user-attachments/assets/e7c61282-2068-4c0a-8ecf-b1e2c1e630c2" /><br>
+Gambar diatas menampilkan Informasi yang dimiliki oleh Klinik.<br>
 <img width="481" height="102" alt="image" src="https://github.com/user-attachments/assets/edcd9bd6-f8b9-4130-991a-f5ecf69a6531" /><br>
+Gambar diatas digunakan untuk mengakhiri program tersebut.<br>
 
 
 
