@@ -1,3 +1,140 @@
+# DentalClinic Pemrograman Berorientasi Objek 
+### UTS Pemrograman Berorientasi Objek 
+
+| Keterangan | Data |
+|---|---|
+| Nama | Fariz Aufarizky |
+| NIM | 2509116004 |
+| Kelas | A 25 Sistem Informasi |
+| Judul | Manajemen Klinik Gigi |
+<br>
+
+# Deskripsi Projek 
+Program ini digunakan untuk membantu mengelola data pasien dan dokter pada sebuah klinik gigi. Data dokter sudah tersedia di dalam program, sedangkan pasien dapat melakukan pendaftaran dengan memasukkan data diri dan keluhan.
+Setelah pasien terdaftar, Manager dapat menentukan dokter yang akan menangani pasien berdasarkan data dan keluhan pasien.
+Program dibuat menggunakan Java dan dijalankan melalui Command Line Interface (CLI).
+
+Fitur Program
+• Daftar Sebagai Pasien.
+• Lihat Data Pasien.
+• Lihat Daftar dokter.
+• Kelola Pasien & Pilih Dokter.
+• Menampilkan Informasi Manager 
+• Menampilkan informasi klinik.
+• Keluar dari program.
+
+## Diagram Class
+                    +-------------------------+
+                    |          User           |
+                    +-------------------------+
+                    | # id                    |
+                    | # nama                  |
+                    | # noTelepon             |
+                    +-------------------------+
+                    | + tampilkanInfo()       |
+                    | + getId()               |
+                    | + getNama()             |
+                    | + getNoTelepon()        |
+                    +------------+------------+
+                                 |
+                    +------------+------------+
+                    |                         |
+                  extends                   extends
+                    |                         |
+                    ▼                         ▼
+          +-------------------+     +-------------------------+
+          |      Manager      |     |         Dokter          |
+          +-------------------+     +-------------------------+
+          |                   |     | - spesialisasi          |
+          +-------------------+     +-------------------------+
+          | + pilihDokter()   |     | + tampilkanInfo()       |
+          | + tampilkanInfo() |     | + getSpesialisasi()     |
+          +-------------------+     +-------------------------+
+                                             ▲
+                                             |
+                                             | ditangani oleh
+                                             |
+                                  +----------+----------+
+                                  |       Pasien        |
+                                  +---------------------+
+                                  | - idPasien          |
+                                  | - nama              |
+                                  | - umur              |
+                                  | - noTelepon         |
+                                  | - keluhan           |
+                                  | - dokter            |
+                                  +---------------------+
+                                  | + setDokter()       |
+                                  | + getDokter()       |
+                                  | + tampilkanInfo()   |
+                                  +---------------------+
+
+                                  +---------------------+
+                                  |        Main         |
+                                  +---------------------+
+                                  | + main()            |
+                                  | + daftarPasien()    |
+                                  | + tampilkanPasien() |
+                                  | + tampilkanDokter() |
+                                  | + pilihDokter()     |
+                                  +---------------------+
+
+### Penjelasan Diagram
+• User > superclass yang menyimpan data dasar.<br>
+• Manager > subclass dari User dan digunakan untuk mengelola pasien serta menentukan dokter.<br>
+• Dokter > subclass dari User yang memiliki tambahan atribut spesialisasi.<br>
+• Pasien > menyimpan data pasien dan memiliki hubungan dengan Dokter.<br>
+• Main > class utama yang menjalankan program dan mengatur menu.<br>
+
+### Hierarki Class 
+User<br>
+├── Manager<br>
+└── Dokter<br>
+
+Pasien > Dokter<br>
+Main > mengatur seluruh proses program<br>
+User merupakan superclass yang menyimpan data dasar seperti ID, nama, dan nomor telepon. Manager dan Dokter merupakan subclass yang mewarisi data dan method dari User. Manager digunakan untuk mengelola proses klinik, sedangkan Dokter memiliki tambahan data berupa spesialisasi.<br>
+
+Pasien tidak mewarisi User, tetapi memiliki hubungan dengan Dokter karena pasien dapat memiliki dokter yang ditentukan oleh Manager. Main` digunakan untuk menjalankan dan mengatur keseluruhan program.<br>
+
+### Struktur Class
+Manajemen-Klinik-Gigi
+│
+├── User.java
+├── Manager.java
+├── Dokter.java
+├── Pasien.java
+└── Main.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <img width="338" height="146" alt="image" src="https://github.com/user-attachments/assets/929b0537-2010-47d1-bbe1-3b8a40e8b5f6" /><br>
 <img width="311" height="143" alt="image" src="https://github.com/user-attachments/assets/926aa529-caea-4387-90cd-48d2e942d941" /><br>
 <img width="458" height="161" alt="image" src="https://github.com/user-attachments/assets/7642cce6-1006-4235-b60d-55691833bcae" /><br>
