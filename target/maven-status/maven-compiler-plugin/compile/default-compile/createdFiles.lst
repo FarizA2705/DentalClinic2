@@ -1,0 +1,5 @@
+model\Manager.class
+model\Dokter.class
+com\mycompany\dentalclinic2\DentalClinic2.class
+model\Pasien.class
+model\User.class
