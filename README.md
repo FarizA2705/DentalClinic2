@@ -98,14 +98,31 @@ User merupakan superclass yang menyimpan data dasar seperti ID, nama, dan nomor 
 Pasien tidak mewarisi User, tetapi memiliki hubungan dengan Dokter karena pasien dapat memiliki dokter yang ditentukan oleh Manager. Main` digunakan untuk menjalankan dan mengatur keseluruhan program.<br>
 
 ### Struktur Class
-Manajemen-Klinik-Gigi
-│
-├── User.java
-├── Manager.java
-├── Dokter.java
-├── Pasien.java
-└── Main.java
+Manajemen-Klinik-Gigi<br>
+│<br>
+├── User.java<br>
+├── Manager.java<br>
+├── Dokter.java<br>
+├── Pasien.java<br>
+└── Main.java<br>
 
+
+### Fungsi Masing-Masing Class
+
+• **User.java**  
+Digunakan sebagai superclass yang menyimpan data dasar seperti ID, nama, dan nomor telepon. Class ini juga memiliki method `tampilkanInfo()` yang dapat diwariskan dan digunakan oleh class turunannya.
+
+• **Manager.java**  
+Digunakan sebagai subclass dari `User` yang berfungsi untuk mengelola proses pada klinik, terutama menentukan dokter yang akan menangani pasien. Class ini juga menerapkan method overriding pada `tampilkanInfo()`.
+
+• **Dokter.java**  
+Digunakan sebagai subclass dari `User` yang menyimpan data dokter seperti ID, nama, nomor telepon, dan spesialisasi. Class ini juga melakukan method overriding pada `tampilkanInfo()`.
+
+• **Pasien.java**  
+Digunakan untuk menyimpan data pasien seperti ID pasien, nama, umur, nomor telepon, keluhan, serta dokter yang menangani pasien.
+
+• **Main.java**  
+Merupakan class utama yang digunakan untuk menjalankan program. Class ini menampilkan menu, menerima input dari pengguna, membuat data dokter dan manager, mengatur pendaftaran pasien, serta mengatur proses penentuan dokter.
 
 
 
