@@ -124,7 +124,20 @@ Digunakan untuk menyimpan data pasien seperti ID pasien, nama, umur, nomor telep
 • **Main.java**  
 Merupakan class utama yang digunakan untuk menjalankan program. Class ini menampilkan menu, menerima input dari pengguna, membuat data dokter dan manager, mengatur pendaftaran pasien, serta mengatur proses penentuan dokter.
 
+## Program Java
+<img width="440" height="243" alt="image" src="https://github.com/user-attachments/assets/95df0c89-15c0-4d92-bb92-38165c06a9fa" /><br>
+membuktikan bahwa User merupakan superclass dan memiliki data serta method yang diwariskan.<br>
+<img width="458" height="186" alt="image" src="https://github.com/user-attachments/assets/5738fc26-f60a-4750-afa9-6c8f1533400d" /><br>
+membuktikan Manager mewarisi User dan menerapkan method overriding.<br>
+<img width="578" height="222" alt="image" src="https://github.com/user-attachments/assets/307390d0-e8a9-41f5-ad8b-dd3b8b392e7f" /><br>
+penerapan inheritance, sekaligus menunjukkan polymorphism melalui method overriding.<br>
+<img width="446" height="337" alt="image" src="https://github.com/user-attachments/assets/a5f60db4-29d7-4540-9949-01220df30de6" /><br>
+menunjukkan bahwa Pasien memiliki hubungan dengan object Dokter.<br>
+<img width="332" height="292" alt="image" src="https://github.com/user-attachments/assets/250db5bc-1cf1-4d6c-8c66-303e6af07093" /><br>
+<img width="307" height="74" alt="image" src="https://github.com/user-attachments/assets/ff03a907-9b91-4e62-ba07-1802f9349638" /><br>
+menunjukkan pembuatan object dari subclass.<br>
 
+## Running Program 
 
 
 
@@ -160,12 +173,7 @@ Merupakan class utama yang digunakan untuk menjalankan program. Class ini menamp
 <img width="335" height="89" alt="image" src="https://github.com/user-attachments/assets/97478e8b-94e8-496c-8de8-d408671e6a60" /><br>>
 <img width="431" height="101" alt="image" src="https://github.com/user-attachments/assets/e7c61282-2068-4c0a-8ecf-b1e2c1e630c2" /><br>
 <img width="481" height="102" alt="image" src="https://github.com/user-attachments/assets/edcd9bd6-f8b9-4130-991a-f5ecf69a6531" /><br>
-<img width="440" height="243" alt="image" src="https://github.com/user-attachments/assets/95df0c89-15c0-4d92-bb92-38165c06a9fa" />
-<img width="458" height="186" alt="image" src="https://github.com/user-attachments/assets/5738fc26-f60a-4750-afa9-6c8f1533400d" />
-<img width="578" height="222" alt="image" src="https://github.com/user-attachments/assets/307390d0-e8a9-41f5-ad8b-dd3b8b392e7f" />
-<img width="446" height="337" alt="image" src="https://github.com/user-attachments/assets/a5f60db4-29d7-4540-9949-01220df30de6" />
-<img width="332" height="292" alt="image" src="https://github.com/user-attachments/assets/250db5bc-1cf1-4d6c-8c66-303e6af07093" />
-<img width="307" height="74" alt="image" src="https://github.com/user-attachments/assets/ff03a907-9b91-4e62-ba07-1802f9349638" />
+
 
 
 
